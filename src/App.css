@@ -1,0 +1,64 @@
+body{
+  background-color: #B49C73;
+}
+
+.App{
+  background-color: #F0DAA4;
+  min-height: 100vh;
+  width: 450px;
+  margin: 20px auto;
+}
+
+.crossed{
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+ul,li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
+  color: #565D47;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.add{
+  margin-top: 5px;
+  background: #EAAC9D;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.delete{
+  background: #565D47;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
